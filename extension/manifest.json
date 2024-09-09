@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Smart dictionary",
+    "description": "Chrome Extension by Rava",
+    "version": "1.0",
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "permissions": [
+        "contextMenus", 
+        "sidePanel", 
+        "storage", 
+        "activeTab", 
+        "tabs"
+    ],
+    "side_panel": {
+        "default_path": "sidepanel/sidepanel.html"
+    },
+    "icons": {
+        "16": "images/logo.png",
+        "48": "images/logo.png",
+        "128": "images/logo.png"
+    }
+}
